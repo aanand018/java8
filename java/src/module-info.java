@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Bagsari
+ *
+ */
+module java {
+}
