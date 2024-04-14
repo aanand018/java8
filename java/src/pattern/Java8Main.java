@@ -118,4 +118,14 @@ public class Java8Main {
 
 	    }
 
+
+
+/*	
+count of genders
+Map<String, Long> genderCount = emps.stream()
+            .collect(Collectors.groupingBy(Employee::getGender, Collectors.counting()));
+	
+	
+	System.out.println(genderCount);    */
+
 }
