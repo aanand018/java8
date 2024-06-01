@@ -12,6 +12,11 @@ public class RadwareStringg {
 		String s1="abcda";
 		String s2="acdaa";
 		String s3="";
+		//generating merge conflicts purpose From user1
+		int a=37;
+		int b=45;
+		System.out.println("a value is "+a);
+		System.out.println("b value is "+b);
 
 		char[] c1=s1.toCharArray();
 		char[] c2=s2.toCharArray();
@@ -45,7 +50,8 @@ public class RadwareStringg {
 		}
 		
 		
-		
+		int a=37;
+		int b=45;
 		
 
 
