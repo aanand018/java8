@@ -1,6 +1,7 @@
 package pattern;
 
 import java.util.Arrays;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -108,6 +109,14 @@ public class Java8Main {
 	                        Collectors.minBy(Comparator.comparing(Student::getRank))));
 	        // System.out.println(stdMap);
 
+	        
+	        
+	        
+	        //10 getting 3rd highest age student
+	        
+	        Student stAge=studentList.stream().sorted(Comparator.comparing(Student::getAge)).skip(3).findFirst().get();
+	        System.out.println(stAge);
+	        
 	         //9 .Find the student who has second rank
 
 	        Student student = studentList.stream()
